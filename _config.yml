@@ -1,1 +1,11 @@
 title: "Jekyll Actions Demo"
+description: "Website Description"
+baseurl: "/demo"
+url: "https://scholarn.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
