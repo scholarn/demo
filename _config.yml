@@ -3,7 +3,7 @@ description: "Website Description"
 baseurl: "/demo"
 url: "https://scholarn.github.io"
 
-theme: minima
+theme: minimal-mistakes-jekyll
 
 plugins:
   - jekyll-feed
