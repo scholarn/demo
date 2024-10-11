@@ -5,6 +5,8 @@ url: "https://scholarn.github.io"
 
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "dark"
+# Enable theme skin switcher in the site footer.
+skin_switcher: true
 
 plugins:
   - jekyll-feed
