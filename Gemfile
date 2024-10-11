@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem "jekyll", "~> 4.3.4"
 
 # Theme minima gem
-gem "minima", "~> 2.5"
+gem "minimal-mistakes-jekyll"
 gem "webrick", "~> 1.7"
 
 # Other gems
