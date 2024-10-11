@@ -3,12 +3,26 @@ description: "Website Description"
 baseurl: "/demo"
 url: "https://scholarn.github.io"
 
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "dark"
-# Enable theme skin switcher in the site footer.
-skin_switcher: true
+header_pages:
+  - about.md
+  
+minima:
+  skin: "dark"
+defaults:
+  # Apply to all posts
+  - scope:
+      path: ""  # Applies to all posts
+      type: "posts"
+    values:
+      layout: "post"
+
+  - scope:
+      path: ""  # Applies to all pages
+      type: "pages"
+    values:
+      layout: "page"
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
