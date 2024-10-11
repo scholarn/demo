@@ -2,10 +2,10 @@
 
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 4.3.4"
 
 # Theme minima gem
-gem "minima", "~> 3.0"
+gem "minima", "~> 2.5"
 gem "webrick", "~> 1.7"
 
 # Other gems
