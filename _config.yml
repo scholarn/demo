@@ -4,7 +4,7 @@ baseurl: "/demo"
 url: "https://scholarn.github.io"
 
 theme: minimal-mistakes-jekyll
-codeminimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "dark"
 
 plugins:
   - jekyll-feed
