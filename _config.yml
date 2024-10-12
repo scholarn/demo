@@ -5,9 +5,7 @@ url: "https://scholarn.github.io"
 
 header_pages:
   - about.md
-  
-minima:
-  skin: "dark"
+thene: minimal-mistakes-jekyll
 defaults:
   # Apply to all posts
   - scope:
