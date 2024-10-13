@@ -7,18 +7,16 @@ header_pages:
   - about.md
 theme: minimal-mistakes-jekyll
 defaults:
+  - scope:
+      path: ""  # Applies to all pages
+    values:
+      layout: "page"
   # Apply to all posts
   - scope:
       path: ""  # Applies to all posts
       type: "posts"
     values:
       layout: "post"
-
-  - scope:
-      path: ""  # Applies to all pages
-      type: "pages"
-    values:
-      layout: "page"
 
 plugins:
   - jekyll-seo-tag
