@@ -2,7 +2,7 @@ title: "Jekyll Actions Demo"
 description: "Website Description"
 baseurl: "/demo"
 url: "https://scholarn.github.io"
-theme: minima
+#theme: minima
 header_pages:
   - about.md
 
