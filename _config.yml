@@ -6,11 +6,13 @@ url: "https://scholarn.github.io"
 header_pages:
   - about.md
 theme: minimal-mistakes-jekyll
+
 defaults:
   - scope:
       path: ""  # Applies to all pages
     values:
       layout: "page"
+
   # Apply to all posts
   - scope:
       path: ""  # Applies to all posts
