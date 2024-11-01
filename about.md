@@ -2,4 +2,4 @@
 title: "About"
 ql: true
 ---
-This is demo page.
+This is a demo page for Jekyll Site.
