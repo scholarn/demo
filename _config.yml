@@ -5,7 +5,7 @@ url: "https://scholarn.github.io"
 #theme: minima
 header_pages:
   - about.md
-
+remote_theme: scholarn/glint
 defaults:
   - scope:
       path: ""  # Applies to all pages
